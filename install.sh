@@ -134,7 +134,7 @@ environment_setup() {
 
 source_file_download() {
   log "[2/6] Downloading source file..."
-  git clone https://github.com/mtoupsUNO/Tango.git
+  git clone -b fix_bashism https://github.com/mtoupsUNO/Tango.git
   git clone https://github.com/mtoupsUNO/Autolab
   log "[2/6] Done"
 }
